@@ -1,0 +1,361 @@
+
+a {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 12pt;
+
+    margin-left: 10px;
+}
+
+.pagelogo {
+    position: absolute;
+    width: 219px;
+    height: 79px;
+    left: 250px;
+    top: 52px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 65px;
+
+    position: absolute;
+    width: 709px;
+    height: 126px;
+    left: 750px;
+    top: 37px;
+}
+
+.abtNav {
+    width: 110px;
+    height: 22px;
+
+    font-family: 'Press Start 2P', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #EE7D01;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.persoNav {
+    /* Personality */
+
+
+    width: 110px;
+    height: 22px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.abilitNav {
+    /* Abilities */
+
+
+    width: 198px;
+    height: 22px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #497208;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.navVege {
+    position: absolute;
+    width: 254px;
+    height: 61px;
+    left: 330px;
+    top: 145px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+
+    color: #FE8400;
+}
+
+.bgGrey {
+    position: absolute;
+    width: 1150px;
+    height: 3100px;
+    left: 200px;
+    top: 213px;
+
+    background: #D9D9D9;
+}
+
+.vegeContent {
+    position: absolute;
+    width: 252px;
+    height: 393px;
+    left: 84px;
+    top: 100px;
+}
+
+.nimbusContent {
+    position: absolute;
+    width: 664px;
+    height: auto;
+    left: 88px;
+    top: 100px;
+}
+
+.mangaVege {
+    position: absolute;
+    width: 489px;
+    height: 736px;
+    left: 816px;
+    top: 427px;
+}
+
+.learnMore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+
+    position: absolute;
+    width: 280px;
+    height: 51px;
+    left: 740px;
+    top: 947px;
+}
+
+a:hover {
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background: #FDFD69;
+    opacity: 0.8;
+    font-size: 14pt;
+    height: 50px;
+}
+
+.abtContent {
+    position: absolute;
+    width: 222px;
+    height: 55px;
+    left: 272px;
+    top: 1036px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+
+
+    color: #EE7D01;
+}
+
+.abtContent1 {
+    position: absolute;
+    width: 838px;
+    height: 520px;
+    left: 260px;
+    top: 1088px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 65px;
+    /* or 271% */
+
+
+    color: #000000;
+}
+
+.abilitContent {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 272px;
+    top: 1443px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #497208;
+
+}
+
+.SSJ {
+    position: absolute;
+    width: 630px;
+    height: 391px;
+    left: 258px;
+    top: 1535px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.SSJ1 {
+    position: absolute;
+    width: 908px;
+    height: 237px;
+    left: 258px;
+    top: 1780px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.ssjIMG {
+    position: absolute;
+    width: 264px;
+    height: 355px;
+    left: 904px;
+    top: 1429px;
+}
+
+.majinContent {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 292px;
+    top: 1998px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.majinVege {
+    position: absolute;
+    width: 252px;
+    height: 391px;
+    left: 288px;
+    top: 2063px;
+}
+
+.majinVegeContent {
+    position: absolute;
+    width: 629px;
+    height: 507px;
+    left: 552px;
+    top: 2046px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.majinVegeContent1 {
+    position: absolute;
+    width: 869px;
+    height: 296px;
+    left: 297px;
+    top: 2482px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.personality {
+    position: absolute;
+    width: 264px;
+    height: 22px;
+    left: 273px;
+    top: 2931px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+}
+
+.personality1 {
+    position: absolute;
+    width: 858px;
+    height: 511px;
+    left: 272px;
+    top: 3004px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+footer {
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+
+}
