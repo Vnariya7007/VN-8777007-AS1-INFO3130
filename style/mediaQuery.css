@@ -1,0 +1,23 @@
+/* mobile devices */
+@media (min-width: 375px ) and (max-width: 640px) {
+    h1 {
+     color: red;
+    }
+   
+    
+   }
+   
+   /* tablet */
+   @media (min-width: 640px) and (max-width: 1250px) {
+    h1 {
+     color: blue;
+    }
+    
+    
+   }
+   
+   
+   /* Desktop */
+   @media (min-width: 1280px) {
+    
+   }
